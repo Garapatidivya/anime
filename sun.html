@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ 
+  body{
+  background-color:black;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  }
+  .sun{
+  width:150px;
+  height:150px;
+  background:yellow;
+  border-radius:50%;
+  animation:sun 4s ease-in-out infinite;
+  }
+  
+  @keyframes sun{
+  50%{
+    box-shadow: 0 0 20px yellow,
+				0 0 60px yellow,
+				0 0 300px yellow;
+				
+  }		
+}  
+ .earth{
+  width:30px;
+  height:30px;
+   background:#fff;
+   border-radius:20px;
+   animation:earth 4s ease-in-out infinite;
+   margin-left:-50px;
+   }
+ 
+  
+	
+	
+   
+   @keyframes earth{
+    50%{
+	 box-shadow:0 0 10px white,
+				0 0 20px #fff;
+		
+		}
+		
+	 }
+	 
+  
+   
+</style>
+</head>
+<body>
+ <div class="sun">
+	<div class="earth">
+				
+				
+	</div>
+</div>
+</body>
+</html>	
+  
